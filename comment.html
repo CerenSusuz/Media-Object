@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .media {
+            display: flex;
+            align-items: flex-start;
+            background-color: antiquewhite;
+            color: brown;
+            font-size: 12px;
+            padding: 12px;
+            max-width: 500px;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        
+        .media-heading {
+            color: black;
+            margin: 0 0 8px;
+        }
+        
+        .media-img {
+            width: 120px;
+            margin-right: 16px;
+        }
+        
+        .img-right {
+            order: 1;
+        }
+        
+        .media-inner {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="media">
+        <img class="media-img" src="profile.png" alt="profile">
+        <div class="media-body">
+            <h3 class="media-heading">Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet tempora culpa odit cum unde vitae ducimus nemo nobis voluptatibus ratione.</p>
+        </div>
+    </div>
+    <div class="media">
+        <img class="media-img img-right" src="profile.png" alt="profile">
+        <div class="media-body">
+            <h3 class="media-heading">Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet tempora culpa odit cum unde vitae ducimus nemo nobis voluptatibus ratione.</p>
+
+        </div>
+    </div>
+    <div class="media">
+        <img class="media-img img-right" src="profile.png" alt="profile">
+        <div class="media-body">
+            <h3 class="media-heading">Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet tempora culpa odit cum unde vitae ducimus nemo nobis voluptatibus ratione.</p>
+            <div class="media media-inner">
+                <img class="media-img" src="profile.png" alt="profile">
+                <div class="media-body">
+                    <h3 class="media-heading">Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, id!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
